@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust based on your design needs */
+}
+
+.image {
+    border-radius: 50%; /* Makes the image circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Additional styles can be defined here */
