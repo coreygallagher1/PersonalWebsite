@@ -23,7 +23,11 @@ export const siteConfig = {
     {
       label: "Blog",
       href: "/blog",
-    }
+    },
+	{
+	  label: "Resume",
+	  href: "/resume",
+	}
 	],
 	navMenuItems: [
 		{

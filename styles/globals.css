@@ -4,8 +4,10 @@
 
 
 .bg-background {
-    background-image: url('/pictures/MontBlanc.jpeg'); /* Path relative to the public directory */
-    background-size: cover; /* Cover the entire area, you can use 'contain' if you don't want it to be cropped */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Do not repeat the image */
+    background-image: url('/pictures/MontBlanc.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }

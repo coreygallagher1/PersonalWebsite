@@ -1,10 +1,6 @@
 import { Link } from "@nextui-org/link";
-import { Snippet } from "@nextui-org/snippet";
-import { Code } from "@nextui-org/code"
-import { button as buttonStyles, image } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
-import { GithubIcon } from "@/components/icons";
 import {Image} from "@nextui-org/react";
 import headshot from "@/public/pictures/headshot.jpg"
 
@@ -31,16 +27,16 @@ export default function Home() {
 					New York City
 				</h2>
 				<div className="flex justify-center w-full mt-20 gap-6">
-                <Link isExternal href="https://instagram.com/yourusername">
+                <Link isExternal href="https://www.instagram.com/coreygallagher1/">
                     <Image src="/pictures/instagram.png" alt="Instagram" width={50} height={50} />
                 </Link>
-                <Link isExternal href="https://github.com/yourusername">
+                <Link isExternal href="https://github.com/coreygallagher1?tab=repositories">
                     <Image src="/pictures/github.png" alt="GitHub" width={50} height={50} />
                 </Link>
-                <Link isExternal href="https://linkedin.com/in/yourusername">
+                <Link isExternal href="ttps://www.linkedin.com/in/coreygallagher/">
                     <Image src="/pictures/linkedin.png" alt="LinkedIn" width={50} height={50} />
                 </Link>
-                <Link isExternal href="/pictures/resume.pdf" download>
+                <Link isExternal href="/resume">
                     <Image src="/pictures/resume.png" alt="Resume" width={50} height={50} />
                 </Link>
             	</div>
