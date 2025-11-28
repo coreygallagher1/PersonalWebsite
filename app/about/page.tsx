@@ -6,7 +6,7 @@ export default function AboutPage() {
             <Card className="w-full max-w-7xl p-5">
                 <CardBody>
                     <p>
-                        Hello! I'm Corey Gallagher, an endlessly inquisitive software engineer with a passion for peeling back the layers of how things work. My curiosity sparked at age five when I dismantled a microwave just to peek inside. That curiosity extends beyond gadgets; from a DIY backyard patio as a kid to developing sophisticated financial management software.
+                        Hello! I&apos;m Corey Gallagher, an endlessly inquisitive software engineer with a passion for peeling back the layers of how things work. My curiosity sparked at age five when I dismantled a microwave just to peek inside. That curiosity extends beyond gadgets; from a DIY backyard patio as a kid to developing sophisticated financial management software.
                     </p>
                     <p>
                         At Marquette University, I honed my skills with dual majors in Computer Science and Computational Mathematics. My education was carefully crafted to deepen my technical expertise and to innovate solutions for real-world issues.

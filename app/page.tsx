@@ -2,7 +2,7 @@ import { Link } from "@nextui-org/link";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import {Image} from "@nextui-org/react";
-import headshot from "@/public/pictures/headshot.jpg"
+import headshot from "@/public/pictures/headshot.JPG"
 
 
 export default function Home() {
@@ -33,7 +33,7 @@ export default function Home() {
                 <Link isExternal href="https://github.com/coreygallagher1?tab=repositories">
                     <Image src="/pictures/github.png" alt="GitHub" width={50} height={50} />
                 </Link>
-                <Link isExternal href="ttps://www.linkedin.com/in/coreygallagher/">
+                <Link isExternal href="https://www.linkedin.com/in/coreygallagher/">
                     <Image src="/pictures/linkedin.png" alt="LinkedIn" width={50} height={50} />
                 </Link>
                 <Link isExternal href="/resume">

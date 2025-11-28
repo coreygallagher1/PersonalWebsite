@@ -1,4 +1,6 @@
-import {Accordion, AccordionItem} from "@nextui-org/react";
+"use client";
+
+import {Accordion, AccordionItem} from "@nextui-org/accordion";
 import React from "react";
 
 export default function BlogPage() {
@@ -7,8 +9,10 @@ export default function BlogPage() {
 
     return (
 		<section>
-			<Accordion >
-				<AccordionItem id="1"></AccordionItem>
+			<Accordion>
+				<AccordionItem key="1" title="Blog Post 1">
+					{defaultContent}
+				</AccordionItem>
 			</Accordion>
 		</section>
 
