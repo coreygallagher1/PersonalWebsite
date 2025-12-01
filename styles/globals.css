@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .bg-background {
     background-image: url('/pictures/MontBlanc.jpeg');
     background-size: cover; 

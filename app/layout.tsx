@@ -1,7 +1,6 @@
 import "@/styles/globals.css";
 import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
-import { Navbar } from "@/components/navbar";
 import clsx from "clsx";
 
 export default function RootLayout({
@@ -10,21 +9,18 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang="en" suppressHydrationWarning>
+		<html lang="en" className="light">
 			<head />
 			<body
 				className={clsx(
-					"min-h-screen bg-background font-sans antialiased",
+					"min-h-screen bg-background font-sans antialiased light",
 					fontSans.variable
 				)}
 			>
-				<Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-					<div>
-						<Navbar />
-						<main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
-							{children}
-						</main>
-					</div>
+				<Providers>
+					<main className="w-full">
+						{children}
+					</main>
 				</Providers>
 			</body>
 		</html>
